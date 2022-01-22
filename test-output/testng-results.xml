@@ -1,61 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-21T22:33:43 IST" name="Default suite" finished-at="2022-01-21T22:33:45 IST" duration-ms="1571">
+  <suite started-at="2022-01-22T15:20:36 IST" name="Default suite" finished-at="2022-01-22T15:20:37 IST" duration-ms="1187">
     <groups>
     </groups>
-    <test started-at="2022-01-21T22:33:43 IST" name="Default test" finished-at="2022-01-21T22:33:45 IST" duration-ms="1571">
-      <class name="com.Test.ResponseHeaders">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:43 IST" name="setup" finished-at="2022-01-21T22:33:43 IST" duration-ms="218" status="PASS">
+    <test started-at="2022-01-22T15:20:36 IST" name="Default test" finished-at="2022-01-22T15:20:37 IST" duration-ms="1187">
+      <class name="com.Test.BodyTestWithSimpleMap">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:36 IST" name="setup" finished-at="2022-01-22T15:20:36 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contentTypeIsJson()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:43 IST" name="contentTypeIsJson" finished-at="2022-01-21T22:33:44 IST" duration-ms="616" status="PASS">
+        <test-method signature="returnsCorrectId()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:36 IST" name="returnsCorrectId" finished-at="2022-01-22T15:20:37 IST" duration-ms="679" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contentTypeIsJson -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="closeResources" finished-at="2022-01-21T22:33:44 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- returnsCorrectId -->
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:37 IST" name="closeResources" finished-at="2022-01-22T15:20:37 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="setup" finished-at="2022-01-21T22:33:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:37 IST" name="setup" finished-at="2022-01-22T15:20:37 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="eTagIsPresent()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="eTagIsPresent" finished-at="2022-01-21T22:33:44 IST" duration-ms="232" status="PASS">
+        <test-method signature="returnsCorrectLogin()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:37 IST" name="returnsCorrectLogin" finished-at="2022-01-22T15:20:37 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- eTagIsPresent -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="closeResources" finished-at="2022-01-21T22:33:44 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeResources -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="setup" finished-at="2022-01-21T22:33:44 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="serverIsGithub()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="serverIsGithub" finished-at="2022-01-21T22:33:44 IST" duration-ms="222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- serverIsGithub -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="closeResources" finished-at="2022-01-21T22:33:44 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- returnsCorrectLogin -->
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:37 IST" name="closeResources" finished-at="2022-01-22T15:20:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="setup" finished-at="2022-01-21T22:33:44 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="xRateLimitIsSixty()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:44 IST" name="xRateLimitIsSixty" finished-at="2022-01-21T22:33:45 IST" duration-ms="236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- xRateLimitIsSixty -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.ResponseHeaders@120f102b]" started-at="2022-01-21T22:33:45 IST" name="closeResources" finished-at="2022-01-21T22:33:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeResources -->
-      </class> <!-- com.Test.ResponseHeaders -->
+      </class> <!-- com.Test.BodyTestWithSimpleMap -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
