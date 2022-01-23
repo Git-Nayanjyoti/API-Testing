@@ -50,6 +50,15 @@ Response = client.execute(get);
 Int code = response.getStatusLine().getStatusCode();
 
 ```
+```
+@Test
+	 public void baseUrlReturns200() throws ClientProtocolException, IOException {
+		HttpGet get = new HttpGet(BASE_ENDPOINT);
+	    response = client.execute(get);
+		int actualStatus = response.getStatusLine().getStatusCode();
+		Assert.assertEquals(actualStatus, 200);
+	}
+```
 
 
 
