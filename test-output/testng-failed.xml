@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Test.ResponseHeaders">
+      <class name="com.Test.BodyTestWithJackson">
         <methods>
           <include name="closeResources"/>
           <include name="setup"/>
-          <include name="eTagIsPresent"/>
+          <include name="correctRateLimitsAreSet"/>
         </methods>
-      </class> <!-- com.Test.ResponseHeaders -->
+      </class> <!-- com.Test.BodyTestWithJackson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

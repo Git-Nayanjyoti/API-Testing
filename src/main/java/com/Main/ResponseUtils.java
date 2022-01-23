@@ -1,10 +1,17 @@
 package com.Main;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
 import org.apache.http.Header;
+import org.apache.http.ParseException;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.util.EntityUtils;
+
+import com.entities.User;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ResponseUtils {
 
@@ -44,5 +51,22 @@ public class ResponseUtils {
 		List<Header> httpHeaders = Arrays.asList(response.getAllHeaders());
 		return httpHeaders.stream()
 				.anyMatch(header -> header.getName().equalsIgnoreCase(headerName));
+	}
+	
+	public static User unmarshall(CloseableHttpResponse response, Class<User> clazz) throws ParseException, IOException {
+		String jsonBody = EntityUtils.toString(response.getEntity());
+		return new ObjectMapper()
+				.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+				.readValue(jsonBody, clazz);
+		
+	}
+	
+	//Using java Generics
+	public static <T> T unmarshallGeneric(CloseableHttpResponse response, Class<T> clazz) throws ParseException, IOException {
+		String jsonBody = EntityUtils.toString(response.getEntity());
+		return new ObjectMapper()
+				.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+				.readValue(jsonBody, clazz);
+		
 	}
 }

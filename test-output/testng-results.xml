@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-22T15:20:36 IST" name="Default suite" finished-at="2022-01-22T15:20:37 IST" duration-ms="1187">
+  <suite started-at="2022-01-23T15:06:19 IST" name="Default suite" finished-at="2022-01-23T15:06:21 IST" duration-ms="2112">
     <groups>
     </groups>
-    <test started-at="2022-01-22T15:20:36 IST" name="Default test" finished-at="2022-01-22T15:20:37 IST" duration-ms="1187">
-      <class name="com.Test.BodyTestWithSimpleMap">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:36 IST" name="setup" finished-at="2022-01-22T15:20:36 IST" duration-ms="265" status="PASS">
+    <test started-at="2022-01-23T15:06:19 IST" name="Default test" finished-at="2022-01-23T15:06:21 IST" duration-ms="2112">
+      <class name="com.Test.BodyTestWithJackson">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.BodyTestWithJackson@27ff5d15]" started-at="2022-01-23T15:06:19 IST" name="setup" finished-at="2022-01-23T15:06:19 IST" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="returnsCorrectId()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:36 IST" name="returnsCorrectId" finished-at="2022-01-22T15:20:37 IST" duration-ms="679" status="PASS">
+        <test-method signature="correctRateLimitsAreSet()[pri:0, instance:com.Test.BodyTestWithJackson@27ff5d15]" started-at="2022-01-23T15:06:19 IST" name="correctRateLimitsAreSet" finished-at="2022-01-23T15:06:21 IST" duration-ms="1527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- returnsCorrectId -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:37 IST" name="closeResources" finished-at="2022-01-22T15:20:37 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeResources -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:37 IST" name="setup" finished-at="2022-01-22T15:20:37 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="returnsCorrectLogin()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:37 IST" name="returnsCorrectLogin" finished-at="2022-01-22T15:20:37 IST" duration-ms="197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- returnsCorrectLogin -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.BodyTestWithSimpleMap@1e6454ec]" started-at="2022-01-22T15:20:37 IST" name="closeResources" finished-at="2022-01-22T15:20:37 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- correctRateLimitsAreSet -->
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.Test.BodyTestWithJackson@27ff5d15]" started-at="2022-01-23T15:06:21 IST" name="closeResources" finished-at="2022-01-23T15:06:21 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
-      </class> <!-- com.Test.BodyTestWithSimpleMap -->
+      </class> <!-- com.Test.BodyTestWithJackson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
