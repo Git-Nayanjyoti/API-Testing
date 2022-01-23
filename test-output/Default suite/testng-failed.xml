@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Test.BodyTestWithJackson">
+      <class name="com.Test.DeleteAndPost">
         <methods>
           <include name="closeResources"/>
           <include name="setup"/>
-          <include name="correctRateLimitsAreSet"/>
+          <include name="createRepoReturns201WebToken"/>
+          <include name="createRepoReturns201"/>
+          <include name="deleteIsSuccessful"/>
         </methods>
-      </class> <!-- com.Test.BodyTestWithJackson -->
+      </class> <!-- com.Test.DeleteAndPost -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
