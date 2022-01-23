@@ -44,13 +44,13 @@ Referrer Policy: strict-origin-when-cross-origin
 
 ```
 ## Basic Framework Structure
-```java
+```yaml
 HttpGet get = new HttpGet(url);
 Response = client.execute(get);
 Int code = response.getStatusLine().getStatusCode();
 
 ```
-```java
+```yaml
 @Test
 public void baseUrlReturns200() throws ClientProtocolException, IOException {
 HttpGet get = new HttpGet(BASE_ENDPOINT);
