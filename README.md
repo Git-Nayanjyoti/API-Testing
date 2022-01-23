@@ -43,7 +43,13 @@ Remote Address: 13.234.168.60:443
 Referrer Policy: strict-origin-when-cross-origin
 
 ```
+## Basic Framework Structure
+```
+HttpGet get = new HttpGet(url);
+Response = client.execute(get);
+Int code = response.getStatusLine().getStatusCode();
 
+```
 
 
 
