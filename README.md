@@ -8,7 +8,7 @@
 
 # Web API Testing
 
-API testing is a software testing practice that tests the APIs directly — from their functionality, reliability, performance, to security. Part of integration testing, API testing effectively validates the logic of the build architecture within a short amount of time.
+API testing is a software testing practice that tests the APIs directly from their functionality, reliability, performance, to security. Part of integration testing, API testing effectively validates the logic of the build architecture within a short amount of time.
 
 This repository will give you an idea of how we can create our own framework for testing Web APIs using `Apache` `HTTP` library.
 
