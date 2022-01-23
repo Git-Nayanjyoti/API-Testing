@@ -35,7 +35,7 @@ An API’s architecture consists of the rules that guide what information an API
 - HEAD
 
 ## HTTP Headers
-```
+```xml
 Request URL: https://api.github.com/
 Request Method: GET
 Status Code: 304 
@@ -44,7 +44,7 @@ Referrer Policy: strict-origin-when-cross-origin
 
 ```
 ## Basic Framework Structure
-```
+```java
 HttpGet get = new HttpGet(url);
 Response = client.execute(get);
 Int code = response.getStatusLine().getStatusCode();
