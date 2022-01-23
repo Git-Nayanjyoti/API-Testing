@@ -35,7 +35,7 @@ An API’s architecture consists of the rules that guide what information an API
 - HEAD
 
 ## HTTP Headers
-```
+```yaml
 Request URL: https://api.github.com/
 Request Method: GET
 Status Code: 304 
@@ -52,12 +52,12 @@ Int code = response.getStatusLine().getStatusCode();
 ```
 ```java
 @Test
-	 public void baseUrlReturns200() throws ClientProtocolException, IOException {
-		HttpGet get = new HttpGet(BASE_ENDPOINT);
-	    response = client.execute(get);
-		int actualStatus = response.getStatusLine().getStatusCode();
-		Assert.assertEquals(actualStatus, 200);
-	}
+public void baseUrlReturns200() throws ClientProtocolException, IOException {
+HttpGet get = new HttpGet(BASE_ENDPOINT);
+response = client.execute(get);
+int actualStatus = response.getStatusLine().getStatusCode();
+Assert.assertEquals(actualStatus, 200);
+}
 ```
 
 
@@ -68,7 +68,7 @@ Int code = response.getStatusLine().getStatusCode();
 - Importing the Dependencies required 
 - Writing automation test scripts in java 
     - Test definition(Using BDD)
-    ```
+    ```yaml
     - Given: API url is http://api.github.com
       When: User sends a GET request
       Then: Response status code is 200
