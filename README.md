@@ -84,7 +84,7 @@ Assert.assertEquals(actualStatus, 200);
 - [Apache http Client](https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient)
 - [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo)
 - [Json](https://mvnrepository.com/artifact/org.json/json)
-## Authors
+## Author
 
 - [@Nayanjyoti Rabha](https://www.github.com/Git-Nayanjyoti)
 
